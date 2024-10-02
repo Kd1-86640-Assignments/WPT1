@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Animated</title>
+</head>
+<body>
+    <div style="position:relative;">
+    <img id="myCar" src="jimney-removebg-preview.png" style="position:absolute;height:200px"/>
+    <div style="position: absolute; top: 200px; width: fit;">
+   <div style="height:10px ;width:60%; background-color:black ;position:fixed"></div>
+
+    
+
+    <br/><br/><br/><br/><br/><br/>   
+    X axis:<input id="xaxis" type="txtname" value=""/>
+    Y axis:<input id="yaxis" type="txtname" value=""/>
+    <br/><br/><br/><br/>
+    <input type="button" value="Start" onclick="start()"/>
+    <input type="button" value="Stop" onclick="Stop()"/>
+</div>
+</div>
+    <script>
+        var X=0;
+        var Y=0;
+        var car;
+        var refToMycar=document.getElementById("myCar");
+        //we will find mycar from above method
+        function start(){
+          
+        car =window.setInterval(executeme,100);
+        //its for setting interval
+        }
+        function executeme()
+        {
+            
+            if(X>1250)
+            {
+                debugger;
+                Y=Y+15;
+            
+            refToMycar.style.marginTop=Y+"px";
+
+            document.getElementById("yaxis").value=Y;
+            
+            }
+            else{
+                X=X+15;
+            
+            refToMycar.style.marginLeft=X+"px";
+
+            document.getElementById("xaxis").value=X;
+
+            }
+
+
+        }
+        function Stop()
+        {
+            debugger;
+        window.clearInterval(car);
+        car=null;
+        } 
+       
+
+    </script>
+    
+    
+    
+
+
+    
+</body>
+</html>

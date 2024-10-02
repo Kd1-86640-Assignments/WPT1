@@ -1,0 +1,12 @@
+h1{
+    margin: auto;
+}
+body{
+    width:80%;
+    border: 4px solid black;
+    margin: auto;
+
+}
+.table_2{
+    border-collapse:collapse;
+}

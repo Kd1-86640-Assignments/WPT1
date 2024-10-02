@@ -1,0 +1,147 @@
+.row1{
+    width:100%;
+    height:30px;
+    background-color:blue;
+}
+.row1_1{
+    width:50%;
+    height:30px;
+    background-color:red;
+}
+.row2{
+    width:100%;
+    height:30px;
+    background-color: blue;
+
+}
+.row2_1{
+    width: 95%;
+    height:30px;
+    background-color: green;
+}
+.row3{
+    width:100%;
+    height:30px;
+    background-color: blue;
+}
+.row3_1{
+    width: 95%;
+    height:30px;
+    background-color: green;
+
+}
+.row3_2{
+    width: 5%;
+    height:30px;
+    background-color: red;
+
+}
+.row4{
+    background-color: blue;
+    width:105%;
+    height:30px;
+    
+
+}
+.row4_1{
+    width:95%;
+    height:30px;
+    background-color: red;
+}
+.row5{
+    width:105%;
+    height:30px;
+    background-color: green;
+    display: flex;
+}
+.row5_1{
+    width:1.5%;
+    height:15px;
+    background-color: red;
+    margin-left:50%;
+    margin-top:9px;
+}
+.row6{
+    width:105%;
+    height:30px;
+    background-color: red;
+
+}
+.row6_1{
+    width: 40px;
+    height:30px;
+    background-color: blue;
+    margin-left: 48%;
+
+}
+.row7{
+    width:105%;
+    height:30px;
+    background-color: blue;
+    display:flex;
+
+}
+.row7_1{
+    width:30px;
+    height:30px;
+    background-color:red;
+
+
+}
+.row7_2{
+    width:100%;
+    height: 10px;
+    background-color: green;
+    margin-top: 10px;
+    
+
+}
+.row8{
+    width:105%;
+    height:30px;
+    background-color: green;
+    display: flex;
+}
+.row8_1{
+    width:5%;
+    height:30px;
+    background-color:orange;
+    margin-left: 0px;
+}
+.row8_2{
+    width:5%;
+    height:30px;
+    background-color: orange;
+    margin-left: 350px;
+}
+.row9{
+    width:105%;
+    height:30px;
+    background-color: orange;
+    display: flex;
+}
+.row9_1{
+    width: 16px;
+    height:30px;
+    background-color: green;
+    margin-left:240px ;
+}
+.row9_2{
+    width: 16px;
+    height:30px;
+    background-color: green;
+    margin-left:310px ;
+}
+.row9_3{
+    width: 16px;
+    height:30px;
+    background-color: green;
+    margin-left:380px ;
+}
+.row9_4{
+    width: 16px;
+    height:30px;
+    background-color: green;
+    margin-left:480px ;
+}
+
